@@ -1,0 +1,138 @@
+.cv{
+    display: flex;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.left{
+    width: 200px;
+    height: 1000px;
+    background-color: rgb(34, 48, 53);
+    display: flex;
+    flex-direction: column;
+    padding-left: 80px ;
+    color: white;
+}
+
+.right{
+    width: 400px;
+    height: 1000px;
+    padding-left:30px;
+    background-color:white;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.short-line{
+    width: 50px;
+    height: 2px;
+    border-radius: 3px;
+    margin-bottom: 20px;
+}
+.black-color
+{
+    background-color: black;
+}
+.white-color
+{
+    background-color: white;
+}
+
+.skills-container
+{
+    display: grid;
+    grid-template-columns: 9em 9em;
+    margin-top: 20px;
+}
+
+.circle
+{
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background-color: rgb(34, 36, 54);
+    margin-left: 1px;
+}
+.circle-language
+{
+    background-color: white;
+}
+
+.skills-item{
+    display: flex;
+    margin-bottom: 10px;
+    justify-content: space-around;
+}
+
+.languages
+{
+    display: flex;
+    flex-direction: column;
+}
+
+.languages-item
+{
+    display: flex;
+}
+.circles-languages-container
+{
+    display: flex;
+    margin-left: 15px;
+
+}
+
+.circles-container
+{
+    display: flex;
+    margin-left: 15px;
+}
+.circle-transparency
+{
+    opacity: 30%;
+}
+.company-container
+{
+    display: grid;
+    grid-template-columns: 9em 9em;
+    margin-bottom: 10px;
+}
+my-own-text-skills
+{
+    font-size: 14px;
+}
+my-own-text-header
+{
+    font-size: 12px;
+}
+my-own-text-experience
+{
+    font-size: 14px;
+}
+my-own-text
+{
+    padding-bottom: 10px;
+    font-size: 14px;
+    opacity: 70%;
+
+}
+img
+{
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.indentation-between-blocks
+{
+    padding-top: 10px;
+}
+
+p
+{
+    font-size: 12px;
+}
+.education
+{
+    margin-top: 50px;
+}
